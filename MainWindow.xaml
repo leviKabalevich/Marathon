@@ -1,0 +1,19 @@
+﻿<Window x:Class="Marathon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marathon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0" Background="#E5241D70"/>
+        <Image Margin="0,0,568.6,330" Source="2.png" Stretch="Fill"/>
+        <Button Content="Marathon Skills 2016" HorizontalAlignment="Left" Margin="150,146,0,0" VerticalAlignment="Top" Width="205" Height="69" />
+        <Button Content="На сколько долгий марафон?" HorizontalAlignment="Left" Margin="380,146,0,0" VerticalAlignment="Top" Width="205" Height="69" />
+        <Button Content="Предыдущие результаты" HorizontalAlignment="Left" Margin="150,236,0,0" VerticalAlignment="Top" Width="205" Height="69" />
+        <Button x:Name="BBlag" Content="Список &#xD;&#xA;благотворительных&#xD;&#xA; органиаций" HorizontalAlignment="Left" Margin="380,236,0,0" VerticalAlignment="Top" Width="205" Height="69" Click="BBlag_Click" />
+        <Label Content="" HorizontalAlignment="Left" Margin="230,374,0,0" VerticalAlignment="Top" Width="310"/>
+
+    </Grid>
+</Window>

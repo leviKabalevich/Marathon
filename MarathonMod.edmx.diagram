@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="46bdfba43ac440c0b8051b29b356e65a" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="MarathonModel.Charity" Width="1.5" PointX="3" PointY="1.375" />
+        <EntityTypeShape EntityType="MarathonModel.Country" Width="1.5" PointX="0.75" PointY="6.125" />
+        <EntityTypeShape EntityType="MarathonModel.Event" Width="1.5" PointX="5.25" PointY="11" />
+        <EntityTypeShape EntityType="MarathonModel.EventType" Width="1.5" PointX="3" PointY="25.25" />
+        <EntityTypeShape EntityType="MarathonModel.Gender" Width="1.5" PointX="0.75" PointY="2.375" />
+        <EntityTypeShape EntityType="MarathonModel.Marathon" Width="1.5" PointX="3" PointY="11.625" />
+        <EntityTypeShape EntityType="MarathonModel.Position" Width="1.5" PointX="9.75" PointY="1.25" />
+        <EntityTypeShape EntityType="MarathonModel.RaceKitOption" Width="1.5" PointX="3" PointY="21.25" />
+        <EntityTypeShape EntityType="MarathonModel.Registration" Width="1.5" PointX="5.25" PointY="3.125" />
+        <EntityTypeShape EntityType="MarathonModel.RegistrationEvent" Width="1.5" PointX="7.5" PointY="7.625" />
+        <EntityTypeShape EntityType="MarathonModel.RegistrationStatus" Width="1.5" PointX="3" PointY="18.75" />
+        <EntityTypeShape EntityType="MarathonModel.Role" Width="1.5" PointX="1.5" PointY="15.875" />
+        <EntityTypeShape EntityType="MarathonModel.Runner" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="MarathonModel.Sponsorship" Width="1.5" PointX="7.5" PointY="4.25" />
+        <EntityTypeShape EntityType="MarathonModel.Staff" Width="1.5" PointX="12" PointY="1" />
+        <EntityTypeShape EntityType="MarathonModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MarathonModel.Timesheet" Width="1.5" PointX="14.25" PointY="1.25" />
+        <EntityTypeShape EntityType="MarathonModel.User" Width="1.5" PointX="0.75" PointY="10.125" />
+        <EntityTypeShape EntityType="MarathonModel.Volunteer1" Width="1.5" PointX="9.75" PointY="7.75" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Chari__4F7CD00D" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Chari__5070F446" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Chari__5165187F" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Chari__52593CB8" />
+        <AssociationConnector Association="MarathonModel.FK__Marathon__Countr__4CA06362" />
+        <AssociationConnector Association="MarathonModel.FK__Marathon__Countr__4D94879B" />
+        <AssociationConnector Association="MarathonModel.FK__Marathon__Countr__4E88ABD4" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__CountryC__4222D4EF" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__CountryC__6477ECF3" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__CountryC__656C112C" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__CountryC__6754599E" />
+        <AssociationConnector Association="MarathonModel.FK__Event__EventType__44FF419A" />
+        <AssociationConnector Association="MarathonModel.FK__Event__EventType__45F365D3" />
+        <AssociationConnector Association="MarathonModel.FK__Event__EventType__46E78A0C" />
+        <AssociationConnector Association="MarathonModel.FK__Event__EventType__47DBAE45" />
+        <AssociationConnector Association="MarathonModel.FK__Event__MarathonI__48CFD27E" />
+        <AssociationConnector Association="MarathonModel.FK__Event__MarathonI__49C3F6B7" />
+        <AssociationConnector Association="MarathonModel.FK__Event__MarathonI__4AB81AF0" />
+        <AssociationConnector Association="MarathonModel.FK__Event__MarathonI__4BAC3F29" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Event__5CD6CB2B" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Event__5DCAEF64" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Event__5EBF139D" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Event__5FB337D6" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Gender__6C190EBB" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Gender__6D0D32F4" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Gender__6E01572D" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Gender__6EF57B66" />
+        <AssociationConnector Association="MarathonModel.FK_Staff_Position" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__RaceK__534D60F1" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__RaceK__5441852A" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__RaceK__5535A963" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__RaceK__5629CD9C" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__571DF1D5" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__5812160E" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__60A75C0F" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__619B8048" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__628FA481" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Regis__6383C8BA" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Runne__59063A47" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Runne__59FA5E80" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Runne__5AEE82B9" />
+        <AssociationConnector Association="MarathonModel.FK__Registrat__Runne__5BE2A6F2" />
+        <AssociationConnector Association="MarathonModel.FK__Sponsorsh__Regis__6FE99F9F" />
+        <AssociationConnector Association="MarathonModel.FK__Sponsorsh__Regis__70DDC3D8" />
+        <AssociationConnector Association="MarathonModel.FK__Sponsorsh__Regis__71D1E811" />
+        <AssociationConnector Association="MarathonModel.FK__Sponsorsh__Regis__72C60C4A" />
+        <AssociationConnector Association="MarathonModel.FK__User__RoleId__75A278F5" />
+        <AssociationConnector Association="MarathonModel.FK__User__RoleId__76969D2E" />
+        <AssociationConnector Association="MarathonModel.FK__User__RoleId__778AC167" />
+        <AssociationConnector Association="MarathonModel.FK__User__RoleId__787EE5A0" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Email__68487DD7" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Email__693CA210" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Email__6A30C649" />
+        <AssociationConnector Association="MarathonModel.FK__Runner__Email__6B24EA82" />
+        <AssociationConnector Association="MarathonModel.FK_Timesheet_Staff" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

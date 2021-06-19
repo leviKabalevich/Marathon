@@ -1,0 +1,15 @@
+﻿<Window x:Class="Marathon.Windoww"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marathon"
+        mc:Ignorable="d"
+        Title="Windoww" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0" Background="#E5241D70"/>
+        <Image Margin="0,0,568.6,330" Source="2.png" Stretch="Fill"/>
+        <Label Content="Это список благотворительных учреждений, которые&#xD;&#xA; поддерживаются в Marathon Skills 2016. Спасибо за помощь, вы &#xD;&#xA;поддерживаете их, спонсируя бегунов! " HorizontalAlignment="Left" Margin="187,95,0,0" VerticalAlignment="Top" Width="388" Height="60"/>
+
+    </Grid>
+</Window>
